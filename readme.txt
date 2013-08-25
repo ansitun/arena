@@ -1,0 +1,1 @@
+a local server is required to use this plugin, kindly put it in xammp/wamp server folder (htdocs/www) to use this plugin.

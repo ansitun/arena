@@ -1,0 +1,85 @@
+#block
+{
+    width:600px;
+    height: 400px;
+    background-color: aqua;
+}
+#start
+{
+    position: relative;
+    top:  175px;
+    left: 0px;
+    font-size: larger;
+    
+    height:25px;
+    width:100px;
+    
+    cursor: hand;
+    color: red;
+    background-color: yellow;
+    
+    border: 10px solid gray;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    
+}
+#status
+{
+	position: relative;
+	left:  600px;
+}
+
+.floodgates
+{
+    color: gray;
+    font-size: large;
+    position: relative;
+    left: 0px;
+    top:0px;
+    
+}
+#inputarea
+{
+height:30px;
+
+width:600px;
+
+}
+       
+ .chart {
+  position: absolute;
+	width: 0px;
+    height: 0px;
+  border-radius: 200px;
+  -moz-border-radius: 200px;
+  -webkit-border-radius: 200px;
+}
+
+#chart1 {
+  border-right:200px solid yellow;
+  border-top:200px solid transparent;
+  border-left:200px solid transparent;
+  border-bottom:200px solid transparent;
+}
+
+#chart2 {
+  border-right:200px solid transparent;
+  border-top:200px solid green;
+  border-left:200px solid transparent;
+  border-bottom:200px solid transparent;
+}
+
+#chart3 {
+  border-right:200px solid transparent;
+  border-top:200px solid transparent;
+  border-left:200px solid blue;
+  border-bottom:200px solid transparent;
+}
+
+#chart4 {
+  border-right:200px solid transparent;
+  border-top:200px solid transparent;
+  border-left:200px solid transparent;
+  border-bottom:200px solid red;
+}
